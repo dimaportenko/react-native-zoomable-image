@@ -7,8 +7,9 @@
 //
 
 #import "RNZoomableImageViewManager.h"
-#import <UIKit/UIKit.h>
 #import "RNZoomableImageView.h"
+#import <UIKit/UIKit.h>
+#import <React/RCTConvert.h>
 
 @implementation RNZoomableImageViewManager
 
@@ -17,6 +18,11 @@ RCT_EXPORT_MODULE(RNZoomableImage)
 - (UIView *)view
 {
     return [[RNZoomableImageView alloc] init];
+}
+
+RCT_CUSTOM_VIEW_PROPERTY(source, UIImage, RNZoomableImageView)
+{
+    [view setImage:json ? [RCTConvert UIImage:json] : NULL];
 }
 
 

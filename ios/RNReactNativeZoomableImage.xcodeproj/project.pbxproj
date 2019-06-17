@@ -33,7 +33,6 @@
 		C26C4C6E22B7A5F200E4E839 /* RNZoomableImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNZoomableImageView.h; sourceTree = "<group>"; };
 		C26C4C7022B7A63600E4E839 /* RNZoomableImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNZoomableImageView.m; sourceTree = "<group>"; };
 		C26C4C7322B7B10400E4E839 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C26C4C7522B7B9A200E4E839 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +57,6 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				C26C4C7522B7B9A200E4E839 /* map.jpg */,
 				C26C4C6E22B7A5F200E4E839 /* RNZoomableImageView.h */,
 				C26C4C7022B7A63600E4E839 /* RNZoomableImageView.m */,
 				C26C4C5522B7A30500E4E839 /* RNZoomableImageViewManager.h */,

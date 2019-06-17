@@ -13,6 +13,8 @@
 
 @interface RNZoomableImageView : UIView <UIScrollViewDelegate>
 
+- (void)setImage:(UIImage *)image;
+
 @end
 
 #endif /* RNZoomableImageView_h */
